@@ -1,9 +1,24 @@
+.logo  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .logo img {
     width: 155px;
     height: 60px;
 }
 
+
 .menu ul {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    
+
+}
+
+.menu a {
+    color: #676a6d;
 }
